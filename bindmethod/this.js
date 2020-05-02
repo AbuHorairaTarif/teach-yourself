@@ -11,7 +11,7 @@ function myFunc() {
     function inner(){
         console.log(this);
     }
-    inner();
+    new inner();
 }
 
 obj.print();
